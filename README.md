@@ -19,7 +19,7 @@ dataset = pd.read_csv('Salary_Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 ```
-![](/imgs/import-dataset.jpg?raw=true)
+![](/imgs/import-dataset.JPG?raw=true)
 
 ### Split data
 
@@ -53,7 +53,7 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
 ```
-![](/imgs/view-result.jpg?raw=true)
+![](/imgs/view-result.JPG?raw=true)
 ```python
 # Visualising the Test set results 
 plt.scatter(X_test, y_test, color = 'red')
@@ -63,13 +63,13 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show() 
 ```
-![](/imgs/view-result2.jpg?raw=true)
+![](/imgs/view-result2.JPG?raw=true)
 
 ### Prediction of new salary
 Once the supervised classification model is created, we proceed to the prediction:
 ```python
 regressor.predict([[5.6]]) 
 ```
-![](/imgs/predection.jpg?raw=true)
+![](/imgs/predection.JPG?raw=true)
 
 Enjoy the codes.
