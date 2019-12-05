@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Éditeur de Spyder
 
-Ceci est un script temporaire.
+Author: NeetKing
+
 """
 
 # Importing the libraries 
@@ -52,8 +52,8 @@ plt.show()
 
 regressor.predict([[10.5]]) 
 
-#Pour calculer la performance
-# r2 liniaire
+#Calculate the performance
+# r2 linear
 from sklearn.metrics import r2_score  
 coefficient_of_dermination = r2_score(y_test, y_pred) 
 print(coefficient_of_dermination)
